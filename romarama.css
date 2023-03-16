@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+.gh1{
+    
+    width: 90%;
+    margin: auto;
+}
+ 
+.roma1{
+    width: 500px;
+    height: 340px;
+}
+.roma2{
+    width: 300px;
+    font-size: 50px;
+    margin-top: 5%;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    background-color: rgb(234, 230, 230);
+    justify-content: space-between;
+}
+.roma3{
+    font-size: 20px;
+    margin-top: -12%;
+   color: rgb(141, 137, 137);
+}
+.div_q{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.img_q{
+    width: 24px;
+}
+.div_qw{
+    background-color: rgb(191, 182, 182);
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px;
+   margin-right: 90px;
+   margin-left: 20px;
+}
+.roma4{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 90px;
+}
+.roma5{
+   color: grey;
+   margin-top: 20px;
+}
+.roma6{
+    background-color: rgb(209, 201, 201);
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center; 
+}
+.img_f{
+    width: 24px;
+}
+.roma7{
+    background-color: rgb(232, 223, 223);
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center; 
+}
+.roma8{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.tyz{
+    width: 300px;
+    height: 300px; 
+}
+.tyz1{
+    color: grey;
+    font-size: 22px;
+}
+.years{
+    color: grey;
+}
+.tyz2{
+    color: blue; 
+    margin-right: 20px;
+    font-size: 25px;
+}
+.price{
+    display: flex; 
+}
+.car_button{
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    width: 270px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.card{
+    width: 300px;
+    background: gainsboro;
+    margin-top: 30px;
+    padding: 10px;
+}
+.main_card{
+    display: flex;
+    justify-content: space-between;
+}
+.tyz7{
+    margin-top: 70px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.tyz000{
+    margin-left: 500px;
+    font-size: 40px;
+  margin-top: -310px;
+}
+.tyz777{
+    color: grey;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.tyz6{
+    width: 40px;
+    margin-top: 100px;
+    margin-left: 500px;
+   margin-top: -1px;
+   margin-top: 30px;
+}
+.tyz90{
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: -65px;
+}
+.tyz999{
+    color: gray;
+    margin-left: 600px;
+}
+.tyz09{
+    width: 40px;
+    margin-top: 100px;
+    margin-left: 500px;
+   margin-top: -1px;
+   margin-top: 30px;
+}
+.tyz80{
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: -65px;
+}
+.tyz555{
+    color: gray;
+    margin-left: 600px;
+}
+.tyz444{
+    color: gray;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.tyz123{
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: -59px;
+    
+}
+.tyz321{
+    width: 40px; 
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(195, 190, 190);
+
+   
+} 
+.footer{
+    width: 90%; 
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo1{ 
+    margin-top: 40px;
+    line-height: 3;
+    
+}
+.tyz1000{
+    width: 40px; 
+    margin-right: 10px;
+}
+.tyz789{
+    display: flex;
+}
+.bold{
+    font-weight: bold;
+    font-size: 18px;
+}
+@media(max-width:600px){
+    .header_block{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 45px;
+    }
+  }  
+    img{
+        width: 350px;
+        margin-top: 40px;
+    }
+    @media(max-width: 420px){
+        ul{
+            flex-direction: column;
+            height: 60px;
+            padding-top: 20px;
+        }
+        a{
+            font-size: 14px;
+        }
+    }
